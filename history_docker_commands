@@ -1,0 +1,600 @@
+  242  service docker status
+  243  docker images
+  244  docker pull hello-world
+  245  docker run hello-world
+  246  docker images
+  247  docker run hello-world
+  248  docker images
+  249  docker ps
+  250  docker ps -a
+  251  docker run -it ubuntu
+  252  history | grep commit
+  253  ll /tmp/
+  254  docker run -it ubuntu
+  255  docker run -itd ubuntu
+  256  docker attach 16af8afcf
+  257  exit
+  258  pwd
+  259  docker images
+  260  docker ps -a
+  261  docker ps 
+  262  docker ps
+  263  clear
+  264  docker ps
+  265  clear
+  266  docker ps
+  267  docker images
+  268  history
+  269  history | grep commit
+  270  history | grep docker
+  271  docker images
+  272  docker ps
+  273  docker commit loving_franklin ubuntu:5thFeb  6c218f8a9afd
+  274  docker commit loving_franklin ubuntu:5Feb  6c218f8a9afd
+  275  docker commit loving_franklin ubuntu:5Feb
+  276  docker ps
+  277  docker images
+  278  docker ps
+  279  docker images
+  280  docker rmi ubuntu
+  281  docker psd
+  282  docker ps
+  283  docker ps -a
+  284  (docker ps -a -q)
+  285  docker rm (docker ps -a -q)
+  286  docker rm $(docker ps -a -q)
+  287  docker ps -a
+  288  ll
+  289  ifconfig | more
+  290  docker images
+  291  docker rmi $(docker ps -a -q)
+  292  docket images -q
+  293  docker images -q
+  294  docker rmi $(docker images -q)
+  295  docker images 
+  296  clear
+  297  ll
+  298  ls -l
+  299  alias
+  300  ls -l
+  301  pwd
+  302  ll
+  303  clear
+  304  cd docker_demo
+  305  mkdir docker_demo
+  306  cd docker_demo
+  307  ll
+  308  docker
+  309  docker -version
+  310  docker --version
+  311  clear
+  312  docker
+  313  clear 
+  314  docker | more
+  315  docker --help
+  316  clear
+  317  docker --help | more
+  318  docker images --help
+  319  clear
+  320  docker images
+  321  docker ps
+  322  docker ps -a
+  323  docker search hello-world
+  324  docker pull hello-world
+  325  docker images
+  326  docker run hello-world
+  327  clear
+  328  docker ps
+  329  docker ps -a
+  330  docker images
+  331  docker ps -a
+  332  docker run ubuntu
+  333  ll
+  334  docker images
+  335  whereis docker
+  336  which docker
+  337  ll /var/lib/docker/
+  338  ll /var/lib/docker/image/
+  339  ll /var/lib/docker/image/aufs/
+  340  ll /var/lib/docker/image/aufs/distribution/
+  341  ll /var/lib/docker/image/aufs/distribution/diffid-by-digest/
+  342  ll /var/lib/docker/image/aufs/distribution/diffid-by-digest/sha256/
+  343  ll /var/lib/docker/image/
+  344  ll /var/lib/docker/image/aufs/
+  345  ll /var/lib/docker/image/aufs/imagedb/
+  346  ll /var/lib/docker/image/aufs/imagedb/content/
+  347  ll /var/lib/docker/image/aufs/imagedb/content/sha256/
+  348  ll /var/lib/docker/image/aufs/layerdb/
+  349  ll /var/lib/docker/image/aufs/layerdb/mounts/
+  350  ll /var/lib/docker/image/aufs/layerdb/tmp/
+  351  ll /var/lib/docker/image/aufs/layerdb/sha256/
+  352  ll /var/lib/docker/image/aufs/repositories.json 
+  353  vi /var/lib/docker/image/aufs/repositories.json 
+  354  vi /var/lib/docker/trust/
+  355  ll /var/lib/docker/
+  356  ll /var/lib/docker/trust/
+  357  ll /var/lib/docker/containers/
+  358  ll /var/lib/docker/containers/29a4542020f5fa7c2d7162b6b339cf6cace82e7943d24c5028fff8c0ab514c1a/
+  359  vi /var/lib/docker/containers/29a4542020f5fa7c2d7162b6b339cf6cace82e7943d24c5028fff8c0ab514c1a/resolv.conf
+  360  vi /var/lib/docker/containers/29a4542020f5fa7c2d7162b6b339cf6cace82e7943d24c5028fff8c0ab514c1a/hostname 
+  361  focker ps -a
+  362  docker ps -a
+  363  vi /var/lib/docker/containers/d76c5b90d25c4f2a09645bfde3270f78e98aa7630c8b5666a0f2c3a31c93d74e/
+  364  ll /var/lib/docker/containers/d76c5b90d25c4f2a09645bfde3270f78e98aa7630c8b5666a0f2c3a31c93d74e/
+  365  ll /var/lib/docker/containers/d76c5b90d25c4f2a09645bfde3270f78e98aa7630c8b5666a0f2c3a31c93d74e/hostname 
+  366  vi /var/lib/docker/containers/d76c5b90d25c4f2a09645bfde3270f78e98aa7630c8b5666a0f2c3a31c93d74e/hostname 
+  367  docker ps -a
+  368  vi /var/lib/docker/containers/d76c5b90d25c4f2a09645bfde3270f78e98aa7630c8b5666a0f2c3a31c93d74e/hostname 
+  369  vi /var/lib/docker/image/aufs/repositories.json 
+  370  docker images
+  371  grep -ne 0ef2e08ed3fa /var/lib/docker/
+  372  grep -nr 0ef2e08ed3fa /var/lib/docker/
+  373  grep -nr 0ef2e08ed3fa /var/lib/docker/ | more
+  374  grep -nr 0ef2e08ed3fa /var/lib/docker/
+  375  grep -nr 0ef2e08ed3fa /var/lib/docker/ | more
+  376  ll /var/lib/docker/
+  377  ll /var/lib/docker/volumes/
+  378  vi /var/lib/docker/volumes/metadata.db 
+  379  ll /var/lib/docker/swarm/
+  380  docket history hello-world
+  381  docker history hello-world
+  382  docker history ubuuntu
+  383  docker history ubuntu
+  384  docker images
+  385  docker tag 48b5124b2768 hello-world-edureka
+  386  docker images
+  387  docker ls
+  388  docker network ls
+  389  docker run -it -v /hostlog:/log ubuntu
+  390  docker run -it -v /hostlog:/log1 ubuntu
+  391  ll /hostlog/
+  392  ll /
+  393  docker run -it -v /hostlog:/log ubuntu
+  394  ll /hostlog/
+  395  ll /log
+  396  ll /hostlog/
+  397  init 0
+  398  docker images
+  399  docker push hello-world-edureka
+  400  vi /usr/share/docker-engine/contrib/check-config.sh 
+  401  vi /usr/share/docker-engine/contrib/mkimage.sh 
+  402  vi /usr/share/docker-engine/contrib/mkimage/debootstrap 
+  403  cd /
+  404  find . -nr docker.io
+  405  find . -name docker.io
+  406  cd -
+  407  docker push localhost:5000/hello-world-edureka
+  408  docker run -d -p 5000:5000 --restart=always --name registry registry:2
+  409  docker pull ubuntu && docker tag ubuntu localhost:5000/ubuntu
+  410  docker push ubuntu && docker tag ubuntu localhost:5000/ubuntu
+  411  docker pull ubuntu && docker tag ubuntu localhost:5000/ubuntu
+  412  docker ps
+  413  docker stop registry && docker rm -v registry
+  414  docker ps
+  415  docker ps -a
+  416  docker images
+  417  docker login
+  418  docker login localhost:5000
+  419  docker login
+  420  docker push hello-world-edureka
+  421  docker login
+  422  docker logout
+  423  docker login 
+  424  docker login https://hub.docker.com
+  425  docker push hello-world-edureka
+  426  docker push devopsguide1/hello-world-edureka
+  427  docker push hello-world-edureka
+  428  docker login https://hub.docker.com
+  429  docker login status
+  430  docker push hello-world-edureka
+  431  vi ~/.docker/config.json 
+  432  cp  ~/.docker/config.json ~/.docker/config.json.bak
+  433  vi ~/.docker/config.json 
+  434  docker logout
+  435  docker login 
+  436  docker login https://hub.docker.com
+  437  vi ~/.docker/config.json 
+  438  docker push hello-world-edureka
+  439  vi ~/.docker/config.json 
+  440  docker push hello-world-edureka
+  441  docker login 
+  442  docker logout
+  443  docker login 
+  444  vi ~/.docker/config.json 
+  445  docker push hello-world-edureka
+  446  vi ~/.docker/config.json 
+  447  docker logout
+  448  docker login --username=devopsguide --email=devopsguide1@gmail.com
+  449  vi ~/.docker/config.json 
+  450  docker push hello-world-edureka
+  451  vi ~/.docker/config.json 
+  452  docker push devopsguide/hello-world-edureka
+  453  vi ~/.docker/config.json 
+  454  docker push hello-world-edureka
+  455  vi ~/.docker/config.json 
+  456  docker push hello-world-edureka
+  457  docker pull hello-world
+  458  vi ~/.docker/config.json 
+  459  docker pull hello-world
+  460  docker push hello-world
+  461  docker logout
+  462  vi ~/.docker/config.json 
+  463  docker login --username=devopsguide
+  464  docker push --username=devopsguide hello-world
+  465  docker push --help
+  466  docker push hello-world
+  467  vi ~/.docker/config.json 
+  468  docker push devopsguide/hello-world-edureka
+  469  docker logout
+  470  docker login https://hub.docker.com
+  471  vi ~/.docker/config.json 
+  472  docker push devopsguide/hello-world-edureka~
+  473  docker push devopsguide1@gmail.com/hello-world-edureka~
+  474  docker push hello-world
+  475  docker login --username=devopsguide
+  476  vi ~/.docker/config.json 
+  477  docker push hello-world
+  478  docker 
+  479  service docker restart
+  480  docker logs
+  481  docker logs login
+  482  docker pull myrepo
+  483  docker login
+  484  docker pull devopsguide/myrepo
+  485  ll
+  486  git images
+  487  docker images
+  488  docker push myrepo/hello-world
+  489  docker push devopsguide/myrepo/hello-world
+  490  vi ~/.docker/config.json 
+  491  docker push vi/hello-world
+  492  vi ~/.docker/config.json 
+  493  docker push hello-world
+  494  docker push devopsguide/hello-world
+  495  ll
+  496  docker images
+  497  docker rmi 047218491f8c
+  498  ll
+  499  docker images
+  500  docker rmi 0ef2e08ed3fa
+  501  docker push hello-world
+  502  docker push edurekadocker/hello-world
+  503  docker push devopsguide/hello-world
+  504  vi ~/.docker/config.json 
+  505  docker push devopsguide/hello-world
+  506  docker push hello-world
+  507  vi ~/.docker/config.json 
+  508  docker run -it ubuntu
+  509  docker run -it ubuntu bash
+  510  docker run -itd ubuntu
+  511  docker ps
+  512  docker attach
+  513  exit
+  514  docker run -itd ubuntu
+  515  docker ps
+  516  docker attach
+  517  docker attach 4e28291307bc
+  518  docker ps
+  519  docker attach
+  520  docker attach stop 61e6406d50b5
+  521  docker attach 61e6406d50b5
+  522  docker ps
+  523  docker run -it ubuntu bash
+  524  docker run -itd ubuntu
+  525  docker ps
+  526  docker stop 4427012fb34d
+  527  docker ps
+  528  docker run -it ubuntu bash
+  529  docker ps -a
+  530  docker start d76c5b90d25c
+  531  docker ps
+  532  docker ps -a
+  533  docker start 42227f6216b2
+  534  docker ps
+  535  docker attach 42227f6216b2
+  536  docker start 42227f6216b2
+  537  docker ps
+  538  docker exec -it 42227f6216b2
+  539  docker exec -it 42227f6216b2 /bin/bash
+  540  docker ps
+  541  docker attach 42227f6216b2
+  542  docker ps
+  543  docker exec -it 42227f6216b2 /bin/bash
+  544  docker inspect 42227f6216b2
+  545  docker inspect 42227f6216b2 | more
+  546  docker images
+  547  docker create -it --name test_container 0ef2e08ed3fa
+  548  docker images
+  549  docker ps
+  550  docker ps -a
+  551  docker ps -a | grep test
+  552  docker create -it --name test_container 0ef2e08ed3fadocker network ls
+  553  docker network ls
+  554  docker network inspect brdge
+  555  docker network inspect birdge
+  556  docker network inspect bridge
+  557  docker network inspect bridge | more
+  558  ifconfig
+  559  ifconfig | more
+  560  docker network inspect bridge | more
+  561  docker ps 
+  562  docker start 42227f6216b2
+  563  docker ps 
+  564  docker network inspect bridge | more
+  565  !
+  566  docker ps 
+  567  docker ps  -a
+  568  docker start 4427012fb34d
+  569  docker ps  
+  570  docker network inspect bridge | more
+  571  :q!
+  572  docker run -d -name=nginx-edureka-P nginx:latest
+  573  docker run -d -name=nginx-edureka -P nginx:latest
+  574  docker run -d --name=nginx-edureka -P nginx:latest
+  575  docker ps  
+  576  docker run -d --name=nginx-edureka -p 9111:91 nginx:latest
+  577  docker run -d -p 9000:90 --name=nginx-edureka nginx:latest
+  578  docker ps
+  579  docker stop cf5ebd8747d4
+  580  docker run -d -p 9000:90 --name=nginx-edureka nginx:latest
+  581  docker ps
+  582  docker run -d -p 9000:90 --name=nginx-edureka nginx:latest
+  583  docker ps -a
+  584  docker ps -a | grep cf
+  585  docker rm cf5ebd8747d4
+  586  docker run -d -p 9000:90 --name=nginx-edureka nginx:latest
+  587  docker ps 
+  588  docker stop f9f1b6975ed4
+  589  docker run -d -p 8080:41 --name=nginx-edureka nginx:latest
+  590  docker rm f9f1b6975ed4a82e8c094ecbc0c56b4cbbbeebfd107a17452833cd0a7ceef241.
+  591  docker rm f9f1b6975ed4a82e8c094ecbc0c56b4cbbbeebfd107a17452833cd0a7ceef24
+  592  docker run -d -p 8080:41 --name=nginx-edureka nginx:latest
+  593  ps -ef | grep docker
+  594  kill -9 5340
+  595  ps -ef | grep docker
+  596  kill -9 5378
+  597  cd docker_demo/
+  598  ll
+  599  mkdir Dockerfile
+  600  vi Dockerfile/
+  601  vi Dockerfile
+  602  rm -rf Dockerfile/
+  603  vi Dockerfile
+  604  docker build -t testproject .
+  605  ll
+  606  docker images
+  607  docker run -it 0ef2e08ed3fa
+  608  docker rmi ubuntu
+  609  docker images
+  610  docker build -t testproject .
+  611  docker images
+  612  cd ../
+  613  cd -
+  614  ll
+  615  mkdir images
+  616  cd images/
+  617  mkdir apache
+  618  cd apache/
+  619  vi Dockerfile
+  620  docker build -d apacheserver
+  621  docker build -t apacheserver .
+  622  docker images
+  623  docker run -d 233db3c6c862
+  624  docker ps
+  625  docker run -d 233db3c6c862
+  626  docker ps
+  627  docker ps -a
+  628  docker ps -a | grep apacheserver
+  629  docker images
+  630  docker run -d 233db3c6c862
+  631  docker ps
+  632  docker ps -a | grep apacheserver
+  633  docker ps
+  634  docker run  233db3c6c862
+  635  vi Dockerfile
+  636  docker run  233db3c6c862
+  637  docker build -d apacheserver
+  638  docker build -t apacheserver .
+  639  docker images
+  640  docker run e69018c36710
+  641  ll /usr/sbin/apache2ctl
+  642  vi /usr/sbin/apache2ctl
+  643  vi Dockerfile
+  644  docker build -t apacheserver .
+  645  docker images
+  646  docker run -d d16b05059bb5
+  647  docker ps
+  648  docker attach
+  649  docker attach d16b05059bb5
+  650  docker ps
+  651  docker attach 6185cc21ebab
+  652  docker ps
+  653  docker kill 6185cc21ebab
+  654  docker ps
+  655  docker run -it apacheserver /bin/bash
+  656  docker ps
+  657  apachectl status
+  658  apachectl stop
+  659  service apache2 status
+  660  apachectl start
+  661  service apache2 status
+  662  docker run -it apacheserver /bin/bash
+  663  docker run -d d16b05059bb5
+  664  docker ps
+  665  docker ls
+  666  docker network inspect bridge
+  667  :q!
+  668  docker ps
+  669  docker network inspect bridge
+  670  :q!
+  671  docker ls
+  672  docker 
+  673  ls
+  674  docker ls
+  675  list
+  676  docker network ls
+  677  docker network inspect host
+  678  docker images
+  679  docker ps
+  680  docker stop ee172de9a4ba
+  681  docker ps
+  682  docker ps -a
+  683  docker run -ti -v /hostlog:/log ubuntu
+  684  docker ps 
+  685  docker run -d -v ~/nginxlogs:/var/log/nginx -p 5000:80 -i nginx
+  686  docker ps
+  687  ll /var/log/
+  688  ll ~/nginxlogs/
+  689  docker ps
+  690  docker attach 34c84da8fddc
+  691  docker ps
+  692  docker run -d -v ~/nginxlogs:/var/log/nginx -p 5000:80 -i nginx
+  693  docker ps
+  694  docker attach nginx
+  695  docker exec -it a93d338e9f9a
+  696  docker exec -it a93d338e9f9a /bin/bash
+  697  docker ps
+  698  docker stop $(docker ps -a -q)
+  699  docker rm  $(docker ps -a -q)
+  700  docker rmi  $(docker ps -a -q)
+  701  docker rmi  $(docker images -q)
+  702  docker ps
+  703  docker images
+  704  docker rmi  $(docker images -q)
+  705  docker rmi -f  $(docker images -q)
+  706  docker images
+  707  clear
+  708  docker -verion
+  709  docker --verion
+  710  docker --version
+  711  cd ../../
+  712  ll
+  713  rm -rf *
+  714  ll
+  715  clear
+  716  docker images
+  717  docker pull ubuntu
+  718  docker login
+  719  docker login https://hub.docker.com
+  720  service docker restart
+  721  docker pull ubuntu
+  722  vi /etc/default/docker 
+  723  apt-get purge docker
+  724  apt-get install  docker
+  725  ifconfig
+  726  ping google.com
+  727  init 6
+  728  ll
+  729  ll image/
+  730  ll image/aufs/
+  731  vi image/aufs/repositories.json 
+  732  vi containers/
+  733  ll containers/
+  734  ll
+  735  exit
+  736  pwd
+  737  cd docker_demo/
+  738  ll
+  739  docker iamges
+  740  docker images
+  741  docker docker ps
+  742  docker ps
+  743  docker images
+  744  docker ps
+  745  docker commit kickass_euler ubuntu:apache2
+  746  docker images
+  747  docker pas
+  748  docker ps
+  749  docker run -it 0fd95d0c53ce /bin/bash
+  750  docker images
+  751  docker run -it 6dfbbf6a74a0
+  752  docker run -it 0fd95d0c53ce /bin/bash
+  753  docker images
+  754  docker run -it 818cbc9fbc10
+  755  docker run -it 0ef2e08ed3fa
+  756  docker run -itd 0fd95d0c53ce
+  757  docker exec -it 0fd95d0c53ce touch /tmp/hello-world
+  758  docker ps
+  759  docker exec -it 62f4c445aabb  touch /tmp/hello-world
+  760  docker attach 62f4c445aabb
+  761  docker run -itd 0fd95d0c53ce /bin/bash
+  762  docker ps
+  763  docker attach 4d20ec10cda0
+  764  docker ps
+  765  docker run -it 0fd95d0c53ce /bin/bash
+  766  docker images
+  767  ping google.com
+  768  cd docker_demo/
+  769  docker pull ubuntu
+  770  docker images
+  771  docker tag 0ef2e08ed3fa ubuntu-edureka
+  772  docker images
+  773  docker ps
+  774  docker images
+  775  docker run -itd 0ef2e08ed3fa
+  776  docker ps
+  777  docker attach a907e5bbe75f
+  778  docker ps
+  779  docker images
+  780  docker run -it 0ef2e08ed3fa
+  781  docker ps
+  782  docker run -itd 0ef2e08ed3fa
+  783  docker ps
+  784  docker stop 0902045836d2
+  785  docker ps
+  786  docker inspect 0902045836d2
+  787  docker inspect 0902045836d2 | more
+  788  docker ps -a
+  789  docker ps
+  790  docker images
+  791  docker rmi ubuntu
+  792  docker images
+  793  docker rmi ubuntu-edureka
+  794  docker ps -a
+  795  docker rm a907e5bbe75f
+  796  docker rmi ubuntu-edureka
+  797  docker rm 48e8cc99417f
+  798  docker rmi ubuntu-edureka
+  799  docker rm 0902045836d2
+  800  docker rmi ubuntu-edureka
+  801  docker images
+  802  docker ps -a
+  803  hostname
+  804  username
+  805  uname
+  806  clear
+  807  ssh
+  808  service ssh status
+  809  netstat -nlpt | grep 22
+  810  ifconfig
+  811  docker images
+  812  docker pull ubuntu
+  813  docker images
+  814  docker run -it ubuntu
+  815  docker ps
+  816  docker commit furious_austin ubuntu:apache2-running
+  817  docker ps
+  818  docker images
+  819  docker rm 6dfbbf6a74a0
+  820  docker rmi 6dfbbf6a74a0
+  821  docker rm 18956787383c
+  822  docker rmi 6dfbbf6a74a0
+  823  docker images
+  824  docker ps
+  825  docker commit amazing_jang ubuntu:apache2-started
+  826  docker ps
+  827  docker network ls
+  828  docker network inspect bridge
+  829  docker network inspect bridge | more
+  830  docker network inspect host | more
+  831  docker run -d --name=nginx-edureka -P nginx
+  832  docker ps
+  833  history
+  834  init 0
+  835  docker stats
+  836  docker images
+  837  docker run -it 818cbc9fbc10
+  838  docker run -itd 818cbc9fbc10
+  839  docker stats
+  840  docker images
+  841  docker run -itd 6b914bbcb89e
